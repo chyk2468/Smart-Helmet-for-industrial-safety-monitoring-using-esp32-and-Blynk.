@@ -144,7 +144,3 @@ Install via **Sketch → Include Library → Manage Libraries**:
 * **Yashwant Kumar Chitchula** – Project Development
 
 ---
-
-## 12. License
-
-MIT License
