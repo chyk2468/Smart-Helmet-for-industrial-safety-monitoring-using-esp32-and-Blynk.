@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+ <title id="title">Smart Helmet · ESP32-S3 workflow</title><desc id="desc">An IoT safety prototype that monitors motion, gas, and temperature using an ESP32-S3, triggers a buzzer, and reports sensor state through Blynk.</desc>
+ <rect width="1200" height="400" rx="18" fill="#F4F1EB"/>
+ <text x="56" y="42" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2.2" fill="#D47732">PROJECT MAP  /  WORKFLOW</text>
+ <text x="56" y="78" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#262D33">Smart Helmet · ESP32-S3</text>
+ <text x="56" y="105" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#687275">Sensor checks, local warnings, and a Blynk dashboard.</text>
+ <line x1="56" y1="125" x2="1144" y2="125" stroke="#D8D8D1" stroke-width="1"/>
+ <path d="M 300 237 L 330 237" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 325 232 L 330 237 L 325 242" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 584 237 L 614 237" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 609 232 L 614 237 L 609 242" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 868 237 L 898 237" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M 893 232 L 898 237 L 893 242" stroke="#687275" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g>
+    <rect x="56" y="158" width="236" height="158" rx="12" fill="#FFFDF8" stroke="#D8D8D1" stroke-width="1.4"/>
+    <rect x="56" y="158" width="236" height="5" rx="2.5" fill="#D47732"/>
+    <text x="73" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#D47732">01 / SENSORS</text>
+    <text x="73" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#262D33">Motion, gas, heat</text>
+    <text x="73" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#687275">MPU9250/6500, MQ-2, DHT11.</text>
+  </g><g>
+    <rect x="340" y="158" width="236" height="158" rx="12" fill="#FFFDF8" stroke="#D8D8D1" stroke-width="1.4"/>
+    <rect x="340" y="158" width="236" height="5" rx="2.5" fill="#617F73"/>
+    <text x="357" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#617F73">02 / ESP32-S3</text>
+    <text x="357" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#262D33">Read and compare</text>
+    <text x="357" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#687275">Evaluate readings against thresholds.</text>
+  </g><g>
+    <rect x="624" y="158" width="236" height="158" rx="12" fill="#FFFDF8" stroke="#D8D8D1" stroke-width="1.4"/>
+    <rect x="624" y="158" width="236" height="5" rx="2.5" fill="#B39A58"/>
+    <text x="641" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#B39A58">03 / LOCAL ALERT</text>
+    <text x="641" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#262D33">Buzzer output</text>
+    <text x="641" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#687275">Warn when a threshold is crossed.</text>
+  </g><g>
+    <rect x="908" y="158" width="236" height="158" rx="12" fill="#FFFDF8" stroke="#D8D8D1" stroke-width="1.4"/>
+    <rect x="908" y="158" width="236" height="5" rx="2.5" fill="#D47732"/>
+    <text x="925" y="187" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6" fill="#D47732">04 / BLYNK DASHBOARD</text>
+    <text x="925" y="221" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#262D33">Remote status</text>
+    <text x="925" y="249" font-family="Arial,Helvetica,sans-serif" font-size="12.5" fill="#687275">Show readings and alert indicators.</text>
+  </g>
+ <text x="56" y="358" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#D47732">IMPLEMENTATION NOTE</text>
+ <text x="56" y="380" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#687275">Prototype thresholds and sensor calibration must be validated before real safety use.</text>
+</svg>
